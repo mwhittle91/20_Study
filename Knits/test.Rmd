@@ -1,7 +1,0 @@
----
-title: "Is 20 plenty? A review of recent 20mph speed zone interventions"
-author: 'null'
-output: word_document
----
-
-In the UK there is currently a growing trend to lower the default urban speed limit from 30 miles per hour (mph) to 20mph in order to improve road safety. 
