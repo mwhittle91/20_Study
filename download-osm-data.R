@@ -3,9 +3,11 @@
 #install.packages("rgdal")
 #install.packages("sp")
 #install.packages("mapview")
+install.packages("geojsonio")
 library(osmplotr)
 library(tmap)
 library(sp)
+library(geojsonio)
 
 ?osmplotr
 b = bb("Leeds")
@@ -19,4 +21,6 @@ h = h$obj
 plot(h60$obj)
 plot(h, col = "red", add = TRUE)
 mapview::mapview(h)
+
+geojson_write(h, file = "data/leeds-20mphzones.geojson")
 
